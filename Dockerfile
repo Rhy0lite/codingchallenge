@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/<user>/<the forked repository name>.git
+RUN git clone https://github.com/Rhy0lite/codingchallenge.git
 
-WORKDIR /<the forked repository name>
+WORKDIR /codingchallenge
 
 RUN npm install
 
